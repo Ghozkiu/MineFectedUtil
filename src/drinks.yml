@@ -1,0 +1,10 @@
+drinks:
+  puchatest:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: ACACIA_DOOR
+    effects:
+      - speed/30/3
+      - confusion/12/2
+    name: puchatest
+    restores: 23

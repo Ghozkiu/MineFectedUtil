@@ -1,0 +1,23 @@
+main: ghozkiu.minefectedutil.MineFectedUtil
+version: 1.3.1
+name: MineFectedUtil
+depend: [Factions]
+
+
+commands:
+  mfu:
+    description: main command
+  mapa:
+    description: Shows you the besto mapo
+  volver:
+    description: te devuelve, kk
+  bengshoot:
+    description: comando ejecutado al disparar una bengala
+  hordas:
+    description: asignacion de banda y horda
+  anhordas:
+    description: anuncia las hordas
+  mfdatasave:
+    description: sube la base de datos
+  drink:
+    description: a list of drink's commands

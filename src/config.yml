@@ -1,0 +1,102 @@
+Config:
+  guts_durability: 400
+  mask_durability: 500
+  mobsInvulnerability:
+    - 'Refuerzo Alexandria:Alexandria'
+    - 'Refuerzo Santuario:Santuario'
+    - 'Refuerzo Reino:Reino'
+    - 'Refuerzo Susurradores:Susurradores'
+    - 'Refuerzo Hilltop:Hilltop'
+  player_data_collector: true
+  percentage_value: 50
+  leg_infection_prob: 60
+  other_infection: 50
+  friendly_fire: false
+  infection: true
+  infection_timer_cooldown: 30
+  infection_effect_cooldown: 5
+  slowness_effect_timer_cooldown: 60
+  infection_effect_level: 1
+  infection_delay_effect_first_run: 5
+  bleeding_timer_cooldown: 30
+  bleeding_delay_effect_first_run: 5
+  slowness_delay_effect_first_run: 0
+  amputation_confusion_duration: 10
+  amputation_slowness_duration: 999
+  amputation_blindness_duration: 10
+  bleeding_damage: 2
+  amputation_damage: 6
+  amputation_confusion_level: 1
+  amputation_slowness_level: 1
+  amputation_blindness_level: 1
+  cascos:
+    - 'Casco de buzo'
+  notDroppableItems:
+    - 'Espada legendaria'
+
+Thirst:
+  thirst-enable: true
+  set-title: "&fNivel de hidratacion: &b<thirst>%"
+  data-save-cooldown: 60
+  timer: 30
+  join-warmup: 60
+  min-random-interval: 10
+  max-random-interval: 20
+  was-online-limit: 60
+  water-gain: 50
+  milk-gain: 50
+  remainder-timer: 30
+  enabled-worlds:
+  - 'TWD2'
+  - 'world'
+  thirst-random-effect-ontimer:
+  - 'confusion,5,1'
+  - 'slow,5,1'
+
+Drinks:
+  data-save-cooldown: 60
+
+Armor-Values:
+  diamond_helmet: 3
+  diamond_chestplate: 8
+  diamond_leggings: 6
+  diamond_boots: 3
+  iron_helmet: 2
+  iron_chestplate: 6
+  iron_leggings: 5
+  iron_boots: 2
+  golden_helmet: 2
+  golden_chestplate: 5
+  golden_leggings: 3
+  golden_boots: 1
+  chainmail_helmet: 2
+  chainmail_chestplate: 5
+  chainmail_leggings: 4
+  chainmail_boots: 1
+  leather_helmet: 1
+  leather_chestplate: 3
+  leather_leggings: 2
+  leather_boots: 1
+
+Lang:
+  config_reloaded: "&aReload exitoso"
+  map: "&3http://play.minefected.com:8128/"
+  arm_infected: "&aMaldicion! me han mordido un brazo, debo cortarmelo o buscar antibioticos"
+  body_infected: "&aMe han mordido en el cuerpo, tengo que buscar antibioticos"
+  leg_infected: "&aMaldicion! me han mordido una pierna, debo cortarmela o buscar antibioticos"
+  were_cure: "&aParece que ha funcionado"
+  bleeding: "&cTe encuentras sangrando"
+  bleeding_has_stoped: "&cEl sangrado ha parado"
+  just_amputated_tittle: "&cAgh, maldicion!"
+  just_amputated_subtittle: "&c* grita como nena *"
+  amputated: "&aMaldicion! ahora estoy sangrando"
+  cant_amputate: "&aNo te puedes amputar con tan poca vida"
+  no_more: "&cNo puedes amputarte 2 veces una misma extremidad"
+  prosthesis: "&aParece que encaja bien, debe ser un tamaño universal"
+  should_use_leg_prothesis: "&aDeberia buscar una protesis para mi pierna, quizas sirva de algo"
+  should_use_arm_prothesis: "&aDeberia buscar una protesis para mi brazo, quizas sirva de algo"
+  helmet_equiped: "&aSe ha equipado con exito"
+  helmet_not_equiped: "&cNo debes tener ningun casco equipado"
+  thirst-remainder:
+  - '&bRecuerda beber agua'
+  - '&cTengo mucha sed'
